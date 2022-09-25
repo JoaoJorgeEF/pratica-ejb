@@ -23,5 +23,17 @@
         <button>Listar Usuários</button>
     </form>
 
+    <form action="mensagem.do" method="GET">
+        Id: <input name="id"><br>
+        Texto: <input name="texto">
+        <input type="hidden" name="operMsg" value="1" />
+        <button>Inserir</button>
+    </form>
+    <br>
+    <form action="mensagem.do" method="GET">
+        <input type="hidden" name="operMsg" value="2" />
+        <button>Listar Mensagens</button>
+    </form>
+
 </body>
 </html>
